@@ -1,0 +1,90 @@
+ /* Author: Egor ROMANOV */
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #F5F5F5;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 30px;
+}
+
+h2.about {
+    max-width: 1085px;
+    display: block;
+}
+
+h3 {
+    font-weight: 400;
+    display: block;
+    font-size: 18px;
+}
+
+.tag {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.btn_accent {
+    display: inline-block;
+    padding: 20px 40px;
+    background: #AD1818;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+
+div.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+/* blocks */
+
+.block {
+    margin: 40px 0;
+}
+
+.block_one {
+    margin-bottom: 150px;
+}
+
+.block_one div.img {
+    margin: 30px 0;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), url(../img/img_01.jpg);
+    position: relative;
+
+}
+
+.block_one div.img span {
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFF;
+    width: 430px;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+}
