@@ -9,29 +9,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/reset.css?0302">
-    <link rel="stylesheet" href="css/style.css?0302">
+    <link rel="stylesheet" href="css/style.css?0304">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <title>METRIKA</title>
 </head>
 <body>
     <div class="container">
-        <nav></nav>
+        <header>
+            <nav class="nav">
+                <div class="nav__logo">
+                    <a href="/">
+                        <img src="img/logo.svg" alt="METRIKA"></a>
+                </div>
+                <div class="nav__menu">
+                    <a class="nav__menu-link nav__menu-link_active" href="#about">   О нас    </a>
+                    <a class="nav__menu-link" href="#project"> Проекты  </a>
+                    <a class="nav__menu-link" href="#services">Услуги   </a>
+                    <a class="nav__menu-link" href="#contacts">Контакты </a>
+                </div>
+            </nav>
+        </header>
 
-        <div class="block">
+        <section class="block">
             <h1>Современные и стильные<br>интерьеры для комфортной жизни</h1>
             <div class="main__img">
                 <span>Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся разработкой и реализацией дизайн-проектов</span>
             </div>
-        </div>
+        </section>
 
-        <div class="block">
+        <section id="about" class="block">
         <span class="tag">О нас</span>
-            <h2 class="about">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</h2>
-            <a href="#" class="btn_accent">Посмотреть услуги</a>
-        </div>
+            <h2>Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</h2>
+            <a href="#services" class="btn_accent">Посмотреть услуги</a>
+        </section>
         
-        <div class="block">
+        <section id="project" class="block">
             <span class="tag">Проекты</span>
             <div class="project__item">
                 <img src="img/prj_01.jpg" class="project__item-img">
@@ -49,11 +63,11 @@
                 <a class="project__item-link" href="#">Подробнее →</a>
             </div>
             <a href="#" class="more__prj-btn">Смотреть все проекты</a>
-        </div>
+        </section>
     </div>
-    <div class="container dark">
+    <div id="services" class="container container_dark">
         <div class="block">
-            <span class="tag">Услуги</span>
+            <span class="container_dark__tag">Услуги</span>
             <div class="project__item">
                 <img src="img/srv_01.jpg" class="project__item-img">
                 <h3>Планировочное решение — от 2500₽/м²</h3>
@@ -72,9 +86,18 @@
             </div>
         </div>
     </div>
-    <div class="container image">
-        <h3>Проект  Двухкомнтаной квартиры в ЖК Лесной Пейзаж</h3>
+    <div class="container container_image">
+        <h3 class="container_image__h3">Проект  Двухкомнатной квартиры в ЖК Лесной Пейзаж</h3>
     </div>
+    <footer id="contacts" class="footer">
+        <nav class="footer__nav">
+            <a class="footer__nav-link" href="#about">   О нас    </a>
+            <a class="footer__nav-link" href="#project"> Проекты  </a>
+            <a class="footer__nav-link" href="#services">Услуги   </a>
+            <a class="footer__nav-link" href="#contacts">Контакты </a>
+        </nav>
+        <p></p>
+    </footer>
 </body>
 </html>
 

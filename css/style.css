@@ -1,46 +1,15 @@
  /* Author: Egor ROMANOV */
 
-/* Figma Settings */
+ @import url('./components/reset.min.css');
+ @import url('./components/base.css');
+ @import url('./components/header.css');
+ @import url('./components/footer.css');
 
-body {
-    --accent-color: #AD1818;
-    --dark-color: #121212;
-    --light-color: #FFF;
-    --body-color: #F5F5F5;
-    font-family: 'Manrope', sans-serif;
-    background: var(--body-color);
-    color: var(--dark-color);
-    letter-spacing: -0.03em;
-}
 
-h1 {
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 60px;
-}
-
-h2 {
-    font-weight: 400;
-    font-size: 45px;
-    line-height: 61px;
-    margin-bottom: 30px;
-}
-
-h2.about {
-    max-width: 1085px;
-    display: block;
-}
-
-h3 {
-    font-weight: 400;
-    display: block;
-    font-size: 30px;
-    line-height: 41px;
-    margin: 15px 0;
-}
+/* Content */
 
 .tag {
-    display: block;
+    display: inline-block;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -86,50 +55,13 @@ h3 {
     text-decoration: none;
 }
 
-/* CONTAINER */
-
-.container {
-    background-color: var(--light-color);
-    max-width: 1400px;
-    min-width: 1150px;
-    margin: 0 auto;
-    padding-bottom: 1px;
-}
-
-/* CONTAINER — Dark theme */
-
-.dark {
-    padding-top: 150px;
-    background-color: var(--dark-color);
-}
-
-.dark .tag, .dark h3 {
-    color: var(--light-color);
-}
-
-/* CONTAINER — Img */
-
-.image {
-    height: 717px;
-    background: url(../img/zpx_01.jpg);
-    position: relative;
-}
-
-.image h3 {
-    color: var(--light-color);
-    width: 430px;
-    left: 125px;
-    bottom: 45px;
-    position: absolute;
-    letter-spacing: -0.03em;
-}
 
 /* blocks */
 
 .block {
     margin: 0 auto;
     margin-bottom: 150px;
-    width: 1150px;
+    max-width: 1150px;
 }
 
 .main__img {
@@ -157,3 +89,5 @@ h3 {
 .block__dark {
     background-color: var(--dark-color);
 }
+
+

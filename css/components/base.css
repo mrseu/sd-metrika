@@ -1,0 +1,80 @@
+html {
+    --accent-color: #AD1818;
+    --dark-color: #121212;
+    --light-color: #FFF;
+    --body-color: #F5F5F5;    
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: var(--body-color);
+    color: var(--dark-color);
+    letter-spacing: -0.03em;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    letter-spacing: -0.03em;
+    display: block;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 30px;
+    max-width: 1070px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 41px;
+    margin: 15px 0;
+}
+
+/* CONTAINER */
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 1150px;
+    background-color: var(--light-color);
+    padding-bottom: 1px;
+}
+
+/* CONTAINER — Dark theme */
+
+.container_dark {
+    padding-top: 150px;
+    background-color: var(--dark-color);
+}
+
+.container_dark__tag,
+.container_dark h3 {
+    color: var(--light-color);
+}
+
+/* CONTAINER — Img */
+
+.container_image {
+    height: 716px;
+    background: url(../../img/zpx_01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    position: relative;
+}
+
+.container_image__h3 {
+    color: var(--light-color);
+    width: 430px;
+    left: 125px;
+    bottom: 45px;
+    position: absolute;
+    letter-spacing: -0.03em;
+}

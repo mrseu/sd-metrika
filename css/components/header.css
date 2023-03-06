@@ -1,0 +1,24 @@
+.nav {
+    padding-top: 33px;
+    margin: 0 auto 70px auto;
+    display: flex;
+    max-width: 1150px;
+    justify-content: space-between;
+}
+
+.nav__menu-link {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 60px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--dark-color);
+    border-bottom: 1px solid var(--light-color);
+}
+
+.nav__menu-link:hover,
+.nav__menu-link_active {
+    opacity: 0.5;
+    border-bottom: 1px solid var(--dark-color);
+}
