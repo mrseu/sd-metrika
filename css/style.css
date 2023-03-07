@@ -1,20 +1,14 @@
  /* Author: Egor ROMANOV */
 
  @import url('./components/reset.min.css');
- @import url('./components/base.css');
+ @import url('./components/global.css');
+ @import url('./components/nav.css');
  @import url('./components/header.css');
+ @import url('./components/contacts.css');
  @import url('./components/footer.css');
 
 
 /* Content */
-
-.tag {
-    display: inline-block;
-    font-size: 18px;
-    line-height: 25px;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-}
 
 .project__item-link {
     font-size: 20px;
@@ -36,7 +30,7 @@
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
-    transition: all 100ms linear;
+    transition: all var(--speed-effect) linear;
 }
 
 .more__prj-btn:hover {
