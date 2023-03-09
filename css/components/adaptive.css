@@ -1,0 +1,82 @@
+@media (max-width: 480px) {
+
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav__logo{
+    text-align: center;
+  }
+
+  .nav__menu-link {
+    display: block;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .main-title {
+    font-size: 40px;
+  }
+
+  h1, h2, p, a {
+    padding-left: 15px;
+  }
+
+  .welcome {
+    background-position: 50% 50%;
+    height: inherit;
+    background-size: cover;
+  }
+
+  .about__text {
+    font-size: 25px;
+    line-height: 41px;
+  }
+
+  .about__button {
+    display: block;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  .project__descr {
+    font-size: 20px;
+  }
+
+  .project__more-btn {
+    line-height: 90px;
+    margin: 0 15px 60px 15px;
+  }
+
+  .content_dark {
+    padding-top: 40px;
+  }
+
+  .banner {
+    height: 256px;
+  }
+
+  .banner__text {
+    padding: 15px;
+  }
+
+  .contacts__phone, .contacts__email {
+    font-size: 40px;
+  }
+
+  .contacts__second-title::before {
+    left: 11px;
+    height: 27px;
+  }
+
+  .nav__menu_bottom {
+    width: 97%;
+    justify-content: space-around;
+
+  }
+
+  .footer__copyright {
+    font-size: 15px;
+  }
+
+}
