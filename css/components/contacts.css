@@ -11,10 +11,9 @@
     position: absolute;
     top: -38px;
     left: -5px;
-    height: 22px;
-    width: 50px;
+    height: 24px;
+    width: 24px;
     background: url('../../img/contact_phone.svg') no-repeat;
-    opacity: 0.2;
 }
 
 .contacts__phone,
@@ -30,6 +29,11 @@
 
 .contacts__email {
     opacity: 0.5;
+    transition: all calc(var(--speed-effect) * 3);
+}
+
+.contacts__email:hover {
+    opacity: 1;
 }
 
 .contacts__email::after {
