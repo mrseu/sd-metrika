@@ -1,9 +1,9 @@
  /* Author: Egor ROMANOV */
 
- @import url('./components/reset.min.css');
- @import url('./components/global.css');
- @import url('./components/nav.css');
- @import url('./components/contacts.css');
- @import url('./components/footer.css');
- @import url('./components/adaptive.css');
+ @import url('./components/reset.min.css?_20');
+ @import url('./components/global.css?_20');
+ @import url('./components/nav.css?_20');
+ @import url('./components/contacts.css?_20');
+ @import url('./components/footer.css?_20');
+ @import url('./components/adaptive.css?_20');
 
