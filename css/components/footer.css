@@ -1,6 +1,4 @@
 .footer {
-    margin: 0 auto;
-    max-width: 1400px;
     padding: 20px 0;
     background-color: var(--dark-color);
 }
@@ -11,7 +9,7 @@
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.03em;
-    color: #FFFFFF;
+    color: var(--light-color);
     opacity: 0.5;
 
 }
