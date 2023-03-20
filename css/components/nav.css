@@ -1,4 +1,9 @@
 /* HEADER BASE */
+
+.nav-mobile {
+    display: none !important;
+}
+
 .nav {
     padding-top: 33px;
     margin: 0 auto 70px auto;
