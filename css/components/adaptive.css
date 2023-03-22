@@ -59,6 +59,12 @@
 
 @media (max-width: 767px) {
 
+
+  /* TEMP HIDDEN */
+  .content_dark, .banner, #contacts
+  { display: none;}
+  /* TEMP HIDDEN */
+
   .nav {
     display: none;
   }

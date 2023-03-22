@@ -1,7 +1,3 @@
-/* TEMP HIDDEN */
-.content_dark, .banner, #contacts
- { display: none;}
-/* TEMP HIDDEN */
 
 :root {
     --accent-color: #AD1818;
@@ -18,6 +14,9 @@ body {
     font-family: 'Manrope', sans-serif;
     color: var(--dark-color);
     letter-spacing: -0.03em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
 h1, h2, p, a {
