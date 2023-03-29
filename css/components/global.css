@@ -3,6 +3,7 @@
     --accent-color: #AD1818;
     --dark-color: #121212;
     --light-color: #FFF;
+    --black-color: #000;
     --speed-effect: 100ms;
 }
 
@@ -19,7 +20,7 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-h1, h2, p, a {
+h1, h2, h3, p, a {
     font-weight: 400;
     letter-spacing: -0.03em;
     display: block;
@@ -33,6 +34,7 @@ h1, h2, p, a {
 
 .content_dark {
     padding-top: 150px;
+    padding-bottom: 150px;
     background-color: var(--dark-color);
 }
 
@@ -108,9 +110,6 @@ h1, h2, p, a {
 .project_dark {
     padding-bottom: 0;
 }
-.project_dark:last-child {
-    padding-bottom: 88px;
-}
 
 .project__more-btn {
     font-size: 30px;
@@ -170,7 +169,6 @@ h1, h2, p, a {
     max-width: 1400px;
     margin: 0 auto;
     height: 100%;
-    /* position: relative; */
 }
 
 .banner__text {
@@ -181,6 +179,71 @@ h1, h2, p, a {
     position: absolute;
     letter-spacing: -0.03em;
     padding: 0 0 60px 125px;
-    /* bottom: 60px;
-    left: 125px;  */
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 11px;
+}
+
+.project__wrapper {
+    position: relative;
+}
+
+.project__price {
+    position: absolute;
+    display: block;
+    font-size: 22px;
+    line-height: 30px;
+    padding: 5px 21px;
+    border-radius: 5px;
+    left: 30px;
+    top: 30px;
+    color: var(--light-color);
+    background-color: var(--accent-color);
+}
+
+.project-services-btn {
+    font-size: 30px;
+    line-height: 41px;
+    color: var(--light-color);
+    text-decoration: none;
+    text-align: center;
+    background: var(--accent-color);
+    padding: 56px 0;
+    border-radius: 5px;
+}
+
+
+/* Отзывы */
+
+.review-inner {
+    padding: 150px 0;
+}
+
+.review-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: var(--black-color);
+}
+
+.review-item {
+    width: calc(50% - 25px);
+}
+
+.review-item:last-child:nth-child(odd) {
+    width: calc(50% + 25%);
+}
+
+.review__name {
+    font-size: 45px;
+    line-height: 61px;
+    margin-bottom: 14px;
+}
+
+.review__text {
+    font-size: 22px;
+    line-height: 30px;
 }
